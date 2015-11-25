@@ -1,0 +1,23 @@
+development:
+  solr_core: api_whitman
+  tei_xsl: projects/whitman-scribal/scripts/solr_transform_tei.xsl
+  xsl_params:
+    fig_location: http://www.whitmanarchive.org/manuscripts/scribal/thumbnails/
+    file_location: http://server.unl.edu/manuscripts/scribal/tei/
+    figures: true
+    fw: true        # form works (page nums, etc)
+    pb: true        # page breaks
+    project: The_Walt_Whitman_Archive
+    slug: whitman
+
+production:
+  solr_core: api_whitman
+  tei_xsl: projects/whitman-scribal/scripts/solr_transform_tei.xsl
+  xsl_params:
+    fig_location: http://www.whitmanarchive.org/manuscripts/scribal/thumbnails/
+    file_location: http://whitmanarchive.org/manuscripts/scribal/tei/
+    figures: true
+    fw: true        # form works (page nums, etc)
+    pb: true        # page breaks
+    project: The_Walt_Whitman_Archive
+    slug: whitman
