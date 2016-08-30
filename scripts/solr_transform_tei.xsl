@@ -62,4 +62,6 @@
     </field>
   </xsl:template>
 
+  <xsl:template name="text_notes"/>
+
 </xsl:stylesheet>
