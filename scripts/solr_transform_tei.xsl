@@ -50,11 +50,15 @@
       </xsl:template> 
   -->
 
+  <!-- ============= Category ============= -->
+
   <xsl:template name="category">
     <field name="category">
       <xsl:text>manuscripts</xsl:text>
     </field>
   </xsl:template>
+
+  <!-- ============= SubCategory ============= -->
 
   <xsl:template name="subCategory">
     <field name="subCategory">
@@ -62,6 +66,29 @@
     </field>
   </xsl:template>
 
+  <!-- ============= Notes ============= -->
+  <!-- Scribal should NOT include notes in its search -->
+
   <xsl:template name="text_notes"/>
+
+  <!-- ============= Recipients ============= -->
+
+  <xsl:template name="recipients">
+    <xsl:if test="/TEI/teiHeader/profileDesc/particDesc/person/@role='recipient'">
+      <!-- All in one field -->
+      <field name="recipient">
+        <xsl:for-each select="/TEI/teiHeader/profileDesc/particDesc/person[@role='recipient']/persName/@key">
+          <xsl:value-of select="normalize-space(.)"/>
+          <xsl:if test="position() != last()"><xsl:text>; </xsl:text></xsl:if>
+        </xsl:for-each>
+      </field>
+      <!-- Individual fields -->
+      <xsl:for-each select="/TEI/teiHeader/profileDesc/particDesc/person[@role='recipient']/persName/@key">
+        <field name="recipients">
+          <xsl:value-of select="."></xsl:value-of>
+        </field>
+      </xsl:for-each>
+    </xsl:if>
+  </xsl:template>
 
 </xsl:stylesheet>
