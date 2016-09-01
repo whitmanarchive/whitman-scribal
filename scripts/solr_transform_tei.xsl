@@ -66,11 +66,6 @@
     </field>
   </xsl:template>
 
-  <!-- ============= Notes ============= -->
-  <!-- Scribal should NOT include notes in its search -->
-
-  <xsl:template name="text_notes"/>
-
   <!-- ============= Recipients ============= -->
 
   <xsl:template name="recipients">
