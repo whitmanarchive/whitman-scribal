@@ -35,4 +35,26 @@
     </xsl:if>
   </xsl:template>
 
+  <xsl:template match="note">
+    <xsl:choose>
+      <xsl:when test="@type='editorial'">
+        <xsl:choose>
+          <xsl:when test="parent::note[@type='authorial']"/>
+          <xsl:when test="count(//body//note[@type='editorial']) = 1"/>
+          <xsl:otherwise>
+            <span>
+              <sup>
+                <xsl:number count="note[@type='editorial']" level="any"/>
+              </sup>
+            </span>
+          </xsl:otherwise>
+        </xsl:choose>
+      </xsl:when>
+      <xsl:when test="@type='authorial'"/>
+      <xsl:otherwise>
+        <xsl:apply-templates/>
+      </xsl:otherwise>
+    </xsl:choose>
+  </xsl:template>
+
 </xsl:stylesheet>
