@@ -10,28 +10,26 @@
     <xsl:value-of select="$externalfileroot"/>manuscripts/scribal<xsl:value-of select="@facs"/>
   </xsl:template>
 
-  <!-- TODO did not refactor anything when copying into scribal -->
+  <!-- TODO need to refactor this -->
   <xsl:template name="authorial">
     <xsl:if test="//note[@type='authorial']">
-      <xsl:if test="$path1='scribal'">
-        <div class="marginalnotes">
-          <hr class="hr"/>
-          <p>
-            <xsl:for-each select="//body//note[@type='authorial']">
-              <xsl:apply-templates/>
-              <xsl:if test="child::note[@type='editorial']">
-                <!-- The following is a very hacky work-around meant to get the footnotes functional for now, but this will need to be revisited -->
-                <span>
-                  <sup>
-                    <xsl:value-of select="count(//body//note[@type='editorial'])"/>
-                  </sup>
-                </span>
-              </xsl:if>
-              <br/>
-            </xsl:for-each>
-          </p>
-        </div>
-      </xsl:if>
+      <div class="marginalnotes">
+        <hr class="hr"/>
+        <p>
+          <xsl:for-each select="//body//note[@type='authorial']">
+            <xsl:apply-templates/>
+            <xsl:if test="child::note[@type='editorial']">
+              <!-- The following is a very hacky work-around meant to get the footnotes functional for now, but this will need to be revisited -->
+              <span>
+                <sup>
+                  <xsl:value-of select="count(//body//note[@type='editorial'])"/>
+                </sup>
+              </span>
+            </xsl:if>
+            <br/>
+          </xsl:for-each>
+        </p>
+      </div>
     </xsl:if>
   </xsl:template>
 
