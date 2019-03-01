@@ -30,7 +30,7 @@ class TeiToEs
   # Please see docs/tei_to_es.rb for complete instructions and examples
 
   def category
-    "manuscripts"
+    "correspondence"
   end
 
   def format
