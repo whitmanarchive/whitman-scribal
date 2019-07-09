@@ -52,7 +52,9 @@
           <persName xml:id="km">Kevin McMullen</persName>
           <persName xml:id="js">John Schwaninger</persName>
           <persName xml:id="crl">Courtney Rebecca Lawton</persName>
-        <persName xml:id="kp">Kenneth M. Price</persName></note>
+          <persName xml:id="kp">Kenneth M. Price</persName>
+          <persName xml:id="bb">Brett Barney</persName>
+        </note>
       </notesStmt>
       <sourceDesc>
 
@@ -83,7 +85,11 @@
         </person>
       </particDesc>
     </profileDesc>
-    <revisionDesc><change when="2013-06" who="kp">blessed</change><change when="2011-11-17" who="#el">checked file for values of @facs, further revised header information, revised encoding</change><change when="2011-11-15" who="#el">changes to TEI header, including punctuation of titles and replacing initials with full names when possible</change>
+    <revisionDesc>
+      <change when="2019-04-22" who="#bb">transcribed, encoded, proofed</change>
+      <change when="2013-06" who="kp">blessed</change>
+      <change when="2011-11-17" who="#el">checked file for values of @facs, further revised header information, revised encoding</change>
+      <change when="2011-11-15" who="#el">changes to TEI header, including punctuation of titles and replacing initials with full names when possible</change>
       <change when="2013-02-25" who="#crl">transcribed, encoded, proofed</change>
       <change when="2011-04-29" who="#js">proofed</change>
       <change when="2011-02-15" who="#km">proofed</change>
@@ -145,7 +151,7 @@
                     <item n="15">15. The Law Clerk is employed in preparatory examinations of questions for opinion, and other matters of professional and administrative labor. The Chief Clerk exercises a general supervision over those engaged in clerical duties, besides participating 
                         <pb xml:id="leaf003v" facs="nar.00419.005.jpg" type="verso"/>
                         
-                        therein himself. One fourth-class clerk is charged with the examination and investigation of applications for pardon; the other one is charged with the duty of engrossing the opinions, and of serving as stenographic secretary of the Attorney General. Of the third-class clerk, one is in charge of the Record books by correspondence, the two others in miscellaneous clerical-duties; of the two first-class clerks, the same may be said of one of them&#8212;the other performing various special duties, such as messenger between the court and the office, etc. The laborers perform their appropriate duties, and act as messengers. The law clerk's hours are similar to my own. The regular office hours for the clerks are from 9 a.m. to 3 p.m. The chief clerk is sometimes employed more than 6 hours in a day.</item>
+                        therein himself. One fourth-class clerk is charged with the examination and investigation of applications for pardon; the other one is charged with the duty of engrossing the opinions, and of serving as stenographic secretary of the Attorney General. Of the third-class clerks, one is in charge of the Record books by correspondence, the two others in miscellaneous clerical-duties; of the two first-class clerks, the same may be said of one of them&#8212;the other performing various special duties, such as messenger between the court and the office, etc. The laborers perform their appropriate duties, and act as messengers. The law clerk's hours are similar to my own. The regular office hours for the clerks are from 9 a.m. to 3 p.m. The chief clerk is sometimes employed more than 6 hours in a day.</item>
                     <item n="16">16. But one vacancy has occurred since I entered this service. Numerous applications were made, more or less formally&#8212;but all were rejected. Some were supported by political influence.</item>
                     
                     <item n="17">17. The present Law Clerk is the only incumbent who has been appointed since my entering this Office, except the opinion clerk, first temporarily employed as a stenographic secretary. For the latter, expertness as a short-hand writer was the requisite, and I presume his skill as such was tested by experiment. For the Law Clerk, the standard was personal probity, professional competency and experience in some executive department. The circumstances of his appointment are

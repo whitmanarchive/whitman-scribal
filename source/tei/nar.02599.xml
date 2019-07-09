@@ -49,6 +49,7 @@
           changes to this file, as noted: <persName xml:id="el">Elizabeth Lorang</persName>
           <persName xml:id="nnk">Nima Najafi Kianfar</persName>
           <persName xml:id="js">John Schwaninger</persName>
+          <persName xml:id="km">Kevin McMullen</persName>
         </note>
       </notesStmt>
       <sourceDesc>
@@ -75,7 +76,10 @@
         </person>
       </particDesc>
     </profileDesc>
-    <revisionDesc><change when="2011-11-17" who="#el">checked file for values of @facs, further revised header information, revised encoding</change><change when="2011-11-15" who="#el">changes to TEI header, including punctuation of titles and replacing initials with full names when possible</change>
+    <revisionDesc>
+      <change when="2019-07-05" who="#km">fixed typo</change>
+      <change when="2011-11-17" who="#el">checked file for values of @facs, further revised header information, revised encoding</change>
+      <change when="2011-11-15" who="#el">changes to TEI header, including punctuation of titles and replacing initials with full names when possible</change>
       <change when="2011-11-07" who="#js">proofed</change>
       <change when="2011-10-10" who="#nnk">transcribed, encoded</change>
     </revisionDesc>
@@ -91,7 +95,7 @@
             <ab>Sir:</ab>
             <ab>Your letter of the 14th inst. has been received.</ab>
             <ab>I communicated its contents to the District Attorney, Mr. Corbin, who is understood to be now at Yorkville, and have requested him to confer with you upon the subject at once.</ab>
-            <ab>My judgment concurs with yours as to the expediency of prompt arrests, but Mr. Corbin being on the spot can advice upon fuller information.</ab>
+            <ab>My judgment concurs with yours as to the expediency of prompt arrests, but Mr. Corbin being on the spot can advise upon fuller information.</ab>
            <ab>Very respectfully,</ab>
             <ab>A. T. Akerman,</ab>
             <ab>Attorney General.</ab>

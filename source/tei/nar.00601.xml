@@ -7,7 +7,7 @@
     <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title level="m" type="main">Matthew F. Pleasants to Benjamin HelmSmith, 14 July 1868</title>
+        <title level="m" type="main">Matthew F. Pleasants to Benjamin Helm Smith, 14 July 1868</title>
         <title level="m" type="sub">a machine readable transcription</title>
         <author>Matthew F. Pleasants</author>
         <editor>Kenneth M. Price</editor>
@@ -58,7 +58,7 @@
 
         <bibl>
           <author>Matthew F. Pleasants</author>
-          <title>Matthew F. Pleasants to Benjamin HelmSmith, 14 July 1868</title>
+          <title>Matthew F. Pleasants to Benjamin Helm Smith, 14 July 1868</title>
 
           
           <date cert="high" when="1868-07-14" xml:id="dat1">July 14, 1868</date>
@@ -75,14 +75,18 @@
           <persName key="Pleasants, Matthew F. ">Matthew F. Pleasants</persName>
         </person>
         <person role="recipient">
-          <persName key="Smith, Benjamin Helm">Benjamin HelmSmith</persName>
+          <persName key="Smith, Benjamin Helm">Benjamin Helm Smith</persName>
         </person>
         <person role="scribe">
           <persName key="Whitman, Walt">Walt Whitman</persName>
         </person>
       </particDesc>
     </profileDesc>
-    <revisionDesc>       <change when="2011-12-20" who="#el">removed spaces surrounding em-dashes and inserted space between initials</change><change when="2011-11-17" who="#el">checked file for values of @facs, further revised header information, revised encoding</change><change when="2011-11-15" who="#el">changes to TEI header, including punctuation of titles and replacing initials with full names when possible</change>
+    <revisionDesc>
+      <change when="2019-06-12" who="#km">corrected name of recipient</change>
+      <change when="2011-12-20" who="#el">removed spaces surrounding em-dashes and inserted space between initials</change>
+      <change when="2011-11-17" who="#el">checked file for values of @facs, further revised header information, revised encoding</change>
+      <change when="2011-11-15" who="#el">changes to TEI header, including punctuation of titles and replacing initials with full names when possible</change>
       <change when="2011-03-30" who="#nnk">checked</change>    
       <change when="2011-03-03" who="#js">proofed</change>
       <change when="2010-09-30" who="#km">transcribed, encoded</change>
