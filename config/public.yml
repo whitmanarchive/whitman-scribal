@@ -1,11 +1,12 @@
 default:
   shortname: whitman-scribal
-  collection: whitman
+  collection: whitman-scribal
   site_url: https://whitmanarchive.org
   solr_core: api_whitman
   tei_solr_xsl: scripts/overrides/solr_transform_tei.xsl
 
 development:
+  data_base: https://whitman-dev.unl.edu/media
   es_path: https://whitman-dev.unl.edu/elastic
   es_index: api_v1
   site_url: https://whitman-dev.unl.edu
@@ -17,6 +18,7 @@ development:
     site_url: https://whitman-dev.unl.edu
 
 production:
+  data_base: https://whitmanarchive.org/media
   site_url: https://whitmanarchive.org
   solr_path: https://whitman-prod.unl.edu/solr
 
@@ -24,10 +26,3 @@ production:
     project: The_Walt_Whitman_Archive
     slug: whitman-scribal
     site_url: https://whitmanarchive.org
-
-grant:
-  # NOTE: different collection name!!!
-  collection: whitman-grant
-  es_path: https://whitman-dev.unl.edu/elastic
-  es_index: api_v1_grant
-  site_url: https://whitmanarchive.org
