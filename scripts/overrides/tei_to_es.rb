@@ -8,6 +8,7 @@ class TeiToEs
   def override_xpaths
     xpaths = {}
     xpaths["format"] = "/TEI/text/@type"
+    xpaths["rights"] = "/TEI/teiHeader/fileDesc/publicationStmt/availability"
     return xpaths
   end
 
@@ -47,7 +48,10 @@ class TeiToEs
     [ "en" ]
   end
 
-  # TODO place, publisher, rights, rights_uri, rights_holder, source
+  # TODO place, publisher, rights_uri, rights_holder, source
+  def rights
+    get_text(@xpaths["rights"])
+  end
 
   def subcategory
     "scribal"
