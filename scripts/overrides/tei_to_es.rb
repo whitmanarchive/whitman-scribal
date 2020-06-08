@@ -7,6 +7,8 @@ class TeiToEs
   # in the below example, the xpath for "person" is altered
   def override_xpaths
     xpaths = {}
+    xpaths["contributors"] =
+     ["/TEI/teiHeader/fileDesc/titleStmt/respStmt/persName"]
     xpaths["format"] = "/TEI/text/@type"
     xpaths["rights"] = "/TEI/teiHeader/fileDesc/publicationStmt/availability"
     return xpaths
