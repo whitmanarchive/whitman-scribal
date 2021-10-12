@@ -7,10 +7,9 @@ class TeiToEs
   # in the below example, the xpath for "person" is altered
   def override_xpaths
     xpaths = {}
-    xpaths["contributors"] =
-     ["/TEI/teiHeader/fileDesc/titleStmt/respStmt/persName"]
+    xpaths["creator"] = "//profileDesc/particDesc/person[@role='scribe']/persName"
     xpaths["format"] = "/TEI/text/@type"
-    xpaths["rights"] = "/TEI/teiHeader/fileDesc/publicationStmt/availability"
+    xpaths["rights_holder"] = "//fileDesc/publicationStmt/distributor"
     return xpaths
   end
 
@@ -32,6 +31,9 @@ class TeiToEs
   # Overrides of default behavior
   # Please see docs/tei_to_es.rb for complete instructions and examples
 
+  def annotations_text
+  end
+
   def category
     "correspondence"
   end
@@ -48,6 +50,15 @@ class TeiToEs
   def languages
     # TODO verify that none of these are multiple languages
     [ "en" ]
+  end
+
+  def person
+  end
+
+  def publisher
+  end
+
+  def recipient
   end
 
   # TODO place, publisher, rights_uri, rights_holder, source
