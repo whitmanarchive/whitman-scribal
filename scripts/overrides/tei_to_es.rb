@@ -1,3 +1,4 @@
+require "byebug"
 class TeiToEs
 
   ################
@@ -7,11 +8,15 @@ class TeiToEs
   # in the below example, the xpath for "person" is altered
   def override_xpaths
     xpaths = {}
-    xpaths["creator"] = "//profileDesc/particDesc/person[@role='scribe']/persName"
+    xpaths["creator"] = "//profileDesc/particDesc/person[@role='scribe' or @role='sender']/persName"
+    xpaths["recipient"] = "//profileDesc/particDesc/person[@role='recipient']"
     xpaths["format"] = "/TEI/text/@type"
     xpaths["rights_holder"] = "//fileDesc/publicationStmt/distributor"
+    xpaths["sender"] = "//profileDesc/particDesc/person[@role='sender']/persName"
     return xpaths
   end
+
+
 
   #################
   #    GENERAL    #
@@ -22,7 +27,20 @@ class TeiToEs
   #  *_d, *_i, *_k, *_t
   def assemble_collection_specific
     # TODO custom field text_type_k
+    @json["sender_k"] = get_text(@xpaths["sender"])
   end
+
+  # def build_sender
+  #   eles = @xml.xpath(@xpaths["sender"])
+  #   byebug
+  #   eles.map do |p|
+  #     {
+  #       "id" => p["id"],
+  #       "name" => Datura::Helpers.normalize_space(p.text),
+  #       "role" => "sender"
+  #     }
+  #   end
+  # end
 
   ################
   #    FIELDS    #
@@ -33,6 +51,8 @@ class TeiToEs
 
   def annotations_text
   end
+
+  
 
   def category
     "correspondence"
@@ -59,6 +79,14 @@ class TeiToEs
   end
 
   def recipient
+    eles = @xml.xpath(@xpaths["recipient"])
+    eles.map do |p|
+      {
+        "id" => p["id"],
+        "name" => Datura::Helpers.normalize_space(p.text),
+        "role" => "recipient"
+      }
+    end
   end
 
   # TODO place, publisher, rights_uri, rights_holder, source
