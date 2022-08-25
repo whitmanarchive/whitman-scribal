@@ -66,18 +66,17 @@ class TeiToEs
     "en"
   end
 
-  def languages
-    # TODO verify that none of these are multiple languages
-    [ "en" ]
-  end
+  # def languages
+  #   # TODO verify that none of these are multiple languages
+  #   [ "en" ]
+  # end
 
-  def person
-  end
 
   def publisher
   end
 
-  def recipient
+  def person
+    #was recipient
     eles = @xml.xpath(@xpaths["recipient"])
     eles.map do |p|
       {
@@ -93,7 +92,7 @@ class TeiToEs
     get_text(@xpaths["rights"])
   end
 
-  def subcategory
+  def category2
     "scribal"
   end
 
