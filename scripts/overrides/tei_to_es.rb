@@ -55,6 +55,10 @@ class TeiToEs
     "In Whitman's Hand"
   end
 
+  def category2
+    "In Whitman's Hand / Scribal"
+  end
+
   def format
     get_text(@xpaths["format"])
   end
@@ -88,10 +92,6 @@ class TeiToEs
   # TODO place, publisher, rights_uri, rights_holder, source
   def rights
     get_text(@xpaths["rights"])
-  end
-
-  def category2
-    "scribal"
   end
 
   # TODO text other from author, title, publisher, pubplace, and date[@when]
