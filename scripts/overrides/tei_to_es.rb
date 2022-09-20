@@ -51,10 +51,8 @@ class TeiToEs
   def annotations_text
   end
 
-  
-
   def category
-    "correspondence"
+    "In Whitman's Hand"
   end
 
   def format
