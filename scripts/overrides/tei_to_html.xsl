@@ -128,7 +128,7 @@
     <!-- do nothing on match, moved to top in next match -->
   </xsl:template>
   
-  <!-- add all pb's to top -->
+  <!-- add all pb's to top and authorial notes to bottom -->
   <xsl:template match="/TEI/text">
     <div class="page_images_top">
       <xsl:for-each select="//pb">
@@ -190,6 +190,65 @@
       </xsl:for-each>
     </div>
     <xsl:apply-templates/>
+    
+    <!-- authorial notes -->
+    <xsl:if test="//note[@type='authorial']">
+      <div class="authorial_notes">
+        <xsl:for-each select="//note[@type='authorial']">
+          <div>
+            <xsl:attribute name="class">
+              <xsl:text>authorial_note </xsl:text>
+              <xsl:call-template name="add_attributes"></xsl:call-template>
+            </xsl:attribute>
+            <xsl:apply-templates/>
+          </div>
+        </xsl:for-each>
+        
+      </div>
+    </xsl:if>
+  </xsl:template>
+  
+  <!-- authorial notes are moved to the end. see if authorial notes EVER display in place, 
+    if not, we can move the choice for authorial notes to the whitman wide override file -->
+  <xsl:template match="note">
+    <xsl:choose>
+      <xsl:when test="@type = 'authorial'"><!-- do nothing, these are moved to the end --></xsl:when>
+      <xsl:when test="@place = 'foot'">
+        <span>
+          <xsl:attribute name="class">
+            <xsl:call-template name="add_attributes"/>
+            <xsl:text>foot </xsl:text>
+          </xsl:attribute>
+          <a>
+            <xsl:attribute name="href">
+              <xsl:text>#</xsl:text>
+              <xsl:text>foot</xsl:text>
+              <xsl:value-of select="@xml:id"/>
+            </xsl:attribute>
+            <xsl:attribute name="id">
+              <xsl:text>body</xsl:text>
+              <xsl:value-of select="@xml:id"/>
+            </xsl:attribute>
+            
+            <xsl:text>(</xsl:text>
+            <xsl:value-of select="substring(@xml:id, 2)"/>
+            <xsl:text>)</xsl:text>
+          </a>
+        </span>
+      </xsl:when>
+      <xsl:otherwise>
+        <div>
+          <xsl:attribute name="class">
+            <xsl:call-template name="add_attributes"/><xsl:text> </xsl:text>
+            <xsl:value-of select="name()"/>
+          </xsl:attribute>
+          <span>
+            
+            <xsl:apply-templates/>
+          </span>
+        </div>
+      </xsl:otherwise>
+    </xsl:choose>
   </xsl:template>
   
 </xsl:stylesheet>
