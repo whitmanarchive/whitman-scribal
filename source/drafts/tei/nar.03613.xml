@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="ASCII"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="nar.03613">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">Edward Ruggles to U.S. Officer Commanding Post, 3 April 1865</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Edward Ruggles</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="as">Ashlyn Stewart</persName>
+                    <persName xml:id="km">Kevin McMullen</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of
+                    Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2019</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>nar.03613</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright &#169; 2019 by Ed Folsom and Kenneth M. Price, all rights
+                        reserved. Items in the Archive may be shared in accordance with the Fair Use
+                        provisions of U.S. copyright law. Redistribution or republication on other
+                        terms, in any medium, requires express written consent from the editors and
+                        advance notification of the publisher, Center for Digital Research in the
+                        Humanities. Permission to reproduce the graphic images in this archive has
+                        been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>Edward Ruggles</author>
+                    <title>Edward Ruggles to U.S. Officer Commanding Post, 3 April 1865</title>
+                    <date cert="high" when="1865-04-03" xml:id="dat1">April 3, 1865</date>
+                    <idno type="callno"><!-- find out --></idno>
+                    <orgName xml:id="nar">National Archives and Records Administration</orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Ruggles, Edward">Edward Ruggles</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="U.S. Officer Commanding Post">U.S. Officer Commanding Post</persName>
+                </person>
+                <person role="scribe">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+            </particDesc>
+            <handNotes>
+                <handNote xml:id="ct"><persName key="Thomson, Charles H.">Charles H. Thomson</persName></handNote>
+                <handNote xml:id="unk"><persName key="Unknown">Unknown</persName></handNote>
+            </handNotes>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2019-04-04" who="#km">proofed</change>
+            <change when="2019-03-26" who="#as">Updated note formatting</change>
+            <change when="2019-03-14" who="#as">Added notes</change>
+            <change when="2019-03-08" who="#as">Transcribed and encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <text type="letter">
+        <body>
+            <div1>            
+                <pb xml:id="leaf001r" facs="nar_as.00001_large.jpg" type="recto"/>
+            <note type="authorial" place="top">(Sent to U.S. Officer Commanding Post, Annapolis Md. April 3, 1865. Duplicate attached to furlough.)</note>
+                
+            <note type="authorial" place="top"><hi rend="underline">Medical Certificate of Extension of Leave of Absence from April 4th to April 24th 1865.</hi></note>
+                
+            <opener>
+                <dateline>
+                    <name type="place">Brooklyn, New York</name>
+                    <date when="1865-04-03">April 3, 1865</date>
+                </dateline>
+            </opener>
+            
+                <p><hi rend="underline">Captain George W. Whitman</hi> of the 51st Reg't New York Volunteers, having applied for a certificate on which to base an Extenstion of leave of absence, I do hereby certify that I have carefully &#38; several times Examined this officer and find that he has Rheumatism, with swelling &#38; weakness of legs &#38; Debility resulting from six months incarceration in Rebel prisons at Salisbury<note xml:id="n1" type="editorial" resp="wwa">Salisbury prison was one of the earliest Confederate prisons for Union priosoners of war, located in Salisbury, North Carolina.  An abandoned cotton mill was adapted for the purpose, with 120 prisoners arrived on December 9, 1861; the prison would hold 1,400 by May 1862.  Early in the war, prisoners were treated well. But by October 1864, the population grew from 5,000 to 10,000, and death rates soared as prisoners began dying from overcrowding, with mass graves being constructed for the bodies.</note> and Danville,<note xml:id="n2" type="editorial" resp="wwa">Danville, Virginia (located in extreme south-central Virginia) began to hold Union prisoners of war in November 1863.  According to <hi rend="italic">Encyclopedia Virginia</hi>, "hundreds and even thousands of prisoners at a time were held in the dark, grimy warehouses from which they were forbidden even to look out the windows. The food rations were not terrible by most standards, and the prisoners were allowed to use the unused portion of the Green Hill Cemetery for a garden."</note> (from which latter place he was paroled one month since,)&#8212;and that in my opinion it is now unsafe for him to travel, &#38; will be injurious &#38; unsafe for him to travel for the priod from the 4th to the 24th of April, the latter inclusive.</p>
+            
+            <closer>
+                <salute>signed,</salute>
+                <signed>Edward Ruggles M.D.
+                    <note xml:id="n3" type="editorial" resp="wwa">Edward Ruggles (1817&#8211;67) was a Brooklyn physician who befriended the Whitman family and became especially close to Whitman's siblings Jeff and Mattie.  Late in life, Ruggles lost interest in his practice and devoted himself to painting cabinet pictures called "Ruggles Gems." Jeff attended Ruggles's funeral on March 15, 1867, and "long lament[ed]" Ruggles's absence (Dennis Berthold and Kenneth M. Price, <hi rend="italic">Dear Brother Walt: The Letters of Thomas Jefferson Whitman</hi> [Kent, Ohio: Kent State University Press, 1984], 40, 119.  Berthold and Price also cite Edwin  Haviland Miller, ed., <hi rend="italic">Walt Whitman: The Correspondence</hi> [New York: New York University Press, 1978], 1:90n85).</note></signed>
+                <signed>N. 5 East Baltic St.</signed>
+                <signed>Brooklyn</signed>
+            </closer>
+            </div1>
+
+            <div1>
+                    <p>Sworn this 3d day of April 1865 before me Charles H. Thomson Notary Public Kings Co New York</p>
+                
+                <pb xml:id="leaf001v" facs="nar_as.00002_large.jpg" type="verso"/> 
+                    
+                    <p>Personally appeared before me this third day of April <gap reason="illegible"/>1865 Edward Ruggles M.D. to me known to be a practicing physician in good standing in the City of Brooklyn aforementioned who being by me duly sworn according to law did depose and say that the foregoing certificate is true and correct</p>
+                
+                    <closer>
+                        <signed>Charles H. Thomson</signed>
+                        <signed>Notary Public</signed>
+                        <signed>Kings Co NYork</signed>
+                    </closer>
+                
+                </div1>
+            
+            
+            <note type="authorial" place="left">Certificate involving Extension of leave of absence of Capt. Geo. W. Whitman 51st New York Volunteers from the 4th to the 24th of April 1865.</note>
+            
+            <note type="authorial" resp="#unk" place="left">Captain Geo W Whitman 51 N.Y. Vols SC 20 days</note>
+        </body>
+    </text>
+</TEI>

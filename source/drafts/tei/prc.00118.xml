@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="ASCII"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="prc.00118">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">Albion F. Hubbard to Austin Rice, 12 June 1863</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Albion F. Hubbard</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="as">Ashlyn Stewart</persName>
+                    <persName xml:id="km">Kevin McMullen</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of
+                    Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2019</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>prc.00118</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright &#169; 2019 by Ed Folsom and Kenneth M. Price, all rights
+                        reserved. Items in the Archive may be shared in accordance with the Fair Use
+                        provisions of U.S. copyright law. Redistribution or republication on other
+                        terms, in any medium, requires express written consent from the editors and
+                        advance notification of the publisher, Center for Digital Research in the
+                        Humanities. Permission to reproduce the graphic images in this archive has
+                        been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>Albion F. Hubbard</author>
+                    <title>Albion F. Hubbard to Austin Rice, 12 June 1863</title>
+                    <date cert="high" when="1863-06-12" xml:id="dat1">June 12, 1863</date>
+                    <orgName xml:id="prc">Private Collection</orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Hubbard, Albion F.">Albion F. Hubbard</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Rice, Austin">Austin Rice</persName>
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2019-03-29" who="#km">proofed</change>
+            <change when="2019-03-26" who="#as">Updated note formatting</change>
+            <change when="2019-03-13" who="#as">Added note</change>
+            <change when="2019-03-12" who="#as">Transcribed and encoded</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text type="letter">
+        <body>
+            <pb xml:id="leaf001r" facs="prc_as.00001_large.jpg" type="recto"/>
+            
+            <opener>
+                <dateline>
+                    <name type="place">Washington</name>
+                    <date when="1863-06-12">Friday evening June 12th 1863<note xml:id="n1" type="editorial" resp="wwa">The envelope accompanying this letter is addressed to Mr. Austin Rice, Conway, Massachusetts. It is postmarked Washington D.C., June 11, 1863.</note></date>          
+                </dateline>
+                
+                <salute>Dear friend,</salute>
+            </opener>
+            
+            <p>As I have a favorable opportunity, by means of a visitor to the hospital, who is now sitting by the side of my bed, I write you again, making the second time this week, to let you know that I am tolerably comofortable, have good care &#38; medical attendance, &#38; hope to be up before long&#8212;have been up &#38; moving around the ward both this forenoon &#38; afternooon&#8212;though I move around
+
+            <pb xml:id="leaf001v" facs="prc_as.00003_large.jpg" type="verso"/>
+            
+            pretty slow, as I am weak yet&#8212;A member of the Massachusetts Relief Society has called upon me &#38; given me a few trifles&#8212;&#8212;&#8212;</p>
+            
+            <p>Dear friend, I wish you would say to Mrs Rice I send her my best love &#38; respects&#8212;I send my love to Horace, also to Charles &#38; Mrs Clare&#8212;I would like so much to see the face of a friend,&#8212;I wish you would write me a good
+            
+            <pb xml:id="leaf002v" facs="prc_as.00004_large.jpg" type="verso"/>
+     
+     long letter, some of you my dear friends, as a letter from home is very acceptable in hospital&#8212;&#8212;&#8212;</p>
+            
+            <p>My diarrhea is still somewhat troublesome, yet I feel in pretty good spirits&#8212;I send you an envelope with my address on&#8212;Keep a copy of it&#8212;&#38; this one you please put a stamp on &#38; write to me&#8212;Please give my love to the friends in the village
+            
+                <pb xml:id="leaf002r" facs="prc_as.00002_large.jpg" type="recto"/>
+            
+            
+            &#38; tell them I should like to hear from them, &#38; give them my direction here in hospital&#8212;Good bye for the present</p>
+            
+            <closer>
+                <signed>Albion F Hubbard<note xml:id="n2" type="editorial" resp="wwa">Whitman wrote about Albion F. Hubbard in his notebooks from this period. Hubbard likely received a good education as he worked on the farm of Austin Rice, who had also been a teacher and a justice of the peace. Hubbard was described as 5' 7.25" tall with a dark complexion, hazel eyes, and brown hair. He died from diarrhea at just nineteen years old.  Military documents show that Hubbard's body was embalmed and returned home for burial. He rests at the Pine Grove Cemetery in Conway, Massachusetts, near the final resting place of his birth parents, Horace and Mary Gunn Hubbard (Kenneth M. Price and Jacqueline M. Budell, "Writen by Walt Whitman, a friend," <hi rend="italic">Prologue Magazine</hi> 42, no. 2 [Summer 2016]: 36&#8211;45).</note></signed>
+            </closer>
+            
+            <postscript>
+                <ab>written by Walt Whitman, a friend.</ab>
+            </postscript>
+            
+            <pb xml:id="leaf003r" facs="prc_km.00013_large.jpg" type="recto"/>
+            <pb xml:id="leaf003v" facs="prc_km.00014_large.jpg" type="verso"/>
+        </body>
+    </text>
+</TEI>
