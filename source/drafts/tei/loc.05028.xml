@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="ASCII"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.05028">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">Samuel S. Frayer to Lorenzo Thomas, 21 July 1863</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Samuel S. Frayer</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="as">Ashlyn Stewart</persName>
+                    <persName xml:id="km">Kevin McMullen</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of
+                    Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2019</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>loc.05028</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright &#169; 2018 by Ed Folsom and Kenneth M. Price, all rights
+                        reserved. Items in the Archive may be shared in accordance with the Fair Use
+                        provisions of U.S. copyright law. Redistribution or republication on other
+                        terms, in any medium, requires express written consent from the editors and
+                        advance notification of the publisher, Center for Digital Research in the
+                        Humanities. Permission to reproduce the graphic images in this archive has
+                        been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>Samuel S. Frayer</author>
+                    <title>Samuel S. Frayer to Lorenzo Thomas, 21 July 1863</title>
+                    <date cert="high" when="1863-07-21" xml:id="dat1">July 21, 1863</date>
+                    <idno type="callno">MSS18630, Box 9</idno>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839-1919, Library of Congress, Washington, DC</orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Frayer, Samuel S.">Samuel S. Frayer</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Thomas, Lorenzo">Lorenzo Thomas</persName>
+                </person>
+                <person role="scribe">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2019-04-02" who="#km">proofed</change>
+            <change when="2019-03-26" who="#as">Updated note formatting</change>
+            <change when="2018-02-06" who="#as">Transcribed and encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <text type="letter">
+        <body>
+            
+            <pb xml:id="leaf001r" facs="loc.00795.006_large.jpg" type="recto"/>
+            <opener>
+                <dateline>
+                    <name type="place">Fort Bennet,</name>
+                    <date when="1863-07-21">July 21st 1863</date>
+                </dateline>
+                <salute>Adjutant General Thomas,</salute>
+            </opener>
+            
+            <p>General: I have the honor to forward this my application for an officer's position in one of the Colored Regiments now forming in the District of Columbia.<note xml:id="n1" type="editorial" resp="wwa">Men of color could join the Union army beginning in July 1862 when Lincoln signed the Militia Act.  The first United States Colored Troops (USCT) regiment officially entered the army on September 27, 1862.  Though they received older uniforms, worse equipment, and lower pay than white soldiers, and were barred from becoming officers, African Americans joined the effort and showed that the Civil War had become a fight for liberation and freedom.</note></p>
+            
+            <p>I have been in the military service of the government as a private since the beginning of the war&#8212;enlisted first in the 8th New York Militia 19th April 1861, for three months&#8212;subseqently on the 25th August 1862, in the 2d New York Artillery for three years&#8212;&#38; am still in the regiment.  I was born in the state of New York, am in sound health, and 26 years of age.</p>
+            
+            <p>Herewith please see testimonials from my officers.</p>
+            
+            <closer>
+                <salute>I have the honor General to remain &#38;c.</salute>
+                <signed>Samuel S Frayer<note xml:id="n2" type="editorial" resp="wwa">Frayer was a young New Yorker from Albany who worked as a stage driver before joining the military.  Frayer's ambition to lead colored troops went unfulfilled, and he remained with his New York artillery unit until just days before the end of the war, when he died from a bullet wound to the head.</note></signed>
+                <signed>co E 2d New York Vol Artillery</signed>
+            </closer>
+        </body>
+        
+        <pb xml:id="leaf002r" facs="loc.00795.005_large.jpg" type="recto"/>
+    </text>
+</TEI>
