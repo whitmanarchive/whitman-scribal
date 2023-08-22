@@ -53,11 +53,11 @@ class TeiToEs
   end
 
   def category
-    "In Whitman's Hand"
+    "Letters"
   end
 
   def category2
-    "In Whitman's Hand / Scribal"
+    "Letters / Scribal"
   end
 
   def format
@@ -103,7 +103,7 @@ class TeiToEs
 
   def citation
     # WorksInfo is get_works_info.rb in whitman-scripts repo
-    @works_info = WorksInfo.new(xml)
+    @works_info = WorksInfo.new(xml, @id)
     ids, names = @works_info.get_works_info
     citations = []
     if ids && ids.length > 0
