@@ -53,11 +53,11 @@ class TeiToEs
   end
 
   def category
-    "In Whitman's Hand"
+    "Letters"
   end
 
   def category2
-    "In Whitman's Hand / Scribal"
+    "Letters / Scribal"
   end
 
   def format
