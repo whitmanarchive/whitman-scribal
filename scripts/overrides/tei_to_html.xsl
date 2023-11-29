@@ -113,9 +113,8 @@
         <!-- editorial statement -->
         <xsl:text> For a description of the editorial rationale behind our treatment of the manuscripts, see our </xsl:text>
         <a>
-          <xsl:attribute name="href">
-            <xsl:value-of select="$site_url"/>
-            <xsl:text>/about/editorial</xsl:text>
+          <xsl:attribute name="href">]
+            <xsl:text>../about/editorial-policies#correspondence</xsl:text>
           </xsl:attribute>
           <xsl:text>statement of editorial policy</xsl:text>
         </a>
