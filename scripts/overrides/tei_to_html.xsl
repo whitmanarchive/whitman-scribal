@@ -148,8 +148,7 @@
         </xsl:choose>
     </xsl:if>
 
-       
-      <li><strong>Contributors to digital file: </strong> <xsl:value-of separator=" | " select="//teiHeader/fileDesc/notesStmt/note/persName"></xsl:value-of></li>
+       <!-- <li><strong>Contributors to digital file: </strong> <xsl:value-of separator=" | " select="//teiHeader/fileDesc/notesStmt/note/persName"></xsl:value-of></li> -->
 
     </ul>
   </xsl:variable>
