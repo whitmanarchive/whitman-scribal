@@ -16,13 +16,17 @@
   <xsl:output method="xml" indent="no" encoding="UTF-8" omit-xml-declaration="no"/>
   
   <!-- add overrides for this section here -->
+
+ 
+
   
   <xsl:variable name="top_metadata">
     <ul>
-      <li><strong>Title: </strong> <xsl:value-of select="//title[@type='main']"/></li>
+       <!-- <li><strong>Title: </strong> <xsl:value-of select="//title[@type='main']"/></li>
       <li><strong>Date: </strong> <xsl:value-of select="/TEI/teiHeader/fileDesc/sourceDesc/bibl/date"/></li>
-      <li><strong>Whitman Archive ID: </strong> <xsl:value-of select="//teiHeader/fileDesc/publicationStmt/idno"/></li>
+      <li><strong>Whitman Archive ID: </strong> <xsl:value-of select="//teiHeader/fileDesc/publicationStmt/idno"/></li> -->
       
+       <!-- source field -->
       <li><strong>Source: </strong> 
         
         <xsl:choose>
@@ -118,10 +122,40 @@
         <xsl:text>.</xsl:text>
       </li>
 
-      <li><strong>Contributors to digital file: </strong> <xsl:value-of separator=", " select="//teiHeader/fileDesc/notesStmt/note/persName"></xsl:value-of></li>
+    <!-- editorial note(s) field -->
+    <xsl:if test="//body//note[@type='editorial'] | //body//note[@type='authorial'][@resp='unk'] | //notesStmt/note | //sourceDesc/bibl/note[@type='project'][not(@target)]">
+        <xsl:choose>                        
+            <xsl:when test="count(//body//note[@type='editorial'] | //body//note[@type='authorial'][@resp='unk']) = 1">
+                <li><strong>Editorial Note: </strong>
+                    <xsl:if test="//body//note[@type='editorial']">
+                        <xsl:value-of select="//body//note[@type='editorial']"/>
+                    </xsl:if>
+                    <xsl:if test="//body//note[@type='authorial'][@resp='unk']">
+                        <xsl:text>The marginal annotation, "</xsl:text><xsl:apply-templates select="//body//note[@type='authorial'][@resp='unk']"/><xsl:text>," is in a hand other than Whitman's.</xsl:text>
+                    </xsl:if>
+                </li>
+            </xsl:when>
+            
+            <xsl:when test="count(//body//note[@type='editorial']) > 1">
+                <li><strong>Editorial Notes: </strong>
+                    <xsl:for-each select="//body//note[@type='editorial']">
+                        <xsl:number level="any" count="note[@type='editorial']"/>
+                        <xsl:text>. </xsl:text><xsl:apply-templates/>
+                        <xsl:if test="following::note[@type='editorial']"><br /><br /></xsl:if>
+                    </xsl:for-each>
+                </li>
+            </xsl:when>                                
+        </xsl:choose>
+    </xsl:if>
+
+       
+      <li><strong>Contributors to digital file: </strong> <xsl:value-of separator=" | " select="//teiHeader/fileDesc/notesStmt/note/persName"></xsl:value-of></li>
+
     </ul>
   </xsl:variable>
   
+
+
   <!-- PB's -->
   
   <xsl:template match="pb">
