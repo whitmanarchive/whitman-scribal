@@ -15,6 +15,7 @@ class TeiToEs
     xpaths["format"] = "/TEI/text/@type"
     xpaths["rights_holder"] = "//fileDesc/publicationStmt/distributor"
     xpaths["sender"] = "//profileDesc/particDesc/person[@role='sender']/persName"
+    xpaths["contributor"] = "//teiHeader//notesStmt//persName"
     return xpaths
   end
 
