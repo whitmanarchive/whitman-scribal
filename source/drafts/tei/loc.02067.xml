@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="ASCII"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.02067">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">David Ferguson to Margaret Fleming Ferguson, 29 April 1863</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>David Ferguson</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="as">Ashlyn Stewart</persName>
+                    <persName xml:id="km">Kevin McMullen</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of
+                    Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2019</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>loc.02067</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright &#169; 2019 by Ed Folsom and Kenneth M. Price, all rights
+                        reserved. Items in the Archive may be shared in accordance with the Fair Use
+                        provisions of U.S. copyright law. Redistribution or republication on other
+                        terms, in any medium, requires express written consent from the editors and
+                        advance notification of the publisher, Center for Digital Research in the
+                        Humanities. Permission to reproduce the graphic images in this archive has
+                        been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>David Ferguson</author>
+                    <title>David Ferguson to Margaret Fleming Ferguson, 29 April, 1863</title>
+                    <date cert="high" when="1863-04-29" xml:id="dat1">April 29, 1863</date>
+                    <idno type="callno">MSS18630, Box 9</idno>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839-1919, Library of Congress, Washington, DC</orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Ferguson, David">David Ferguson</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Fleming Ferguson, Margaret">Margaret Fleming Ferguson</persName>
+                </person>
+                <person role="scribe">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2019-03-29" who="#km">proofed annotations</change>
+            <change when="2019-03-20" who="#km">second proofing</change>
+            <change when="2019-03-14" who="#as">Added note</change>            
+            <change when="2019-02-21" who="#km">proofed</change>
+            <change when="2018-09-10" who="#as">Transcribed and encoded</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text type="letter">
+        <body>
+
+            <pb xml:id="leaf001r" facs="loc.02067.001_large.jpg" type="recto"/>
+            <opener>
+                <dateline>
+                    <name type="place">Washington</name>
+                    <date when="1863-04-29">April 29th 1863.</date>
+                </dateline>
+                <salute>Dear wife,</salute>
+            </opener>
+
+            <p>I am now to inform you that I have been now sick for two weeks&#8212;have been for the past week in Armory Square Hospital<note xml:id="n1" type="editorial" resp="wwa">The Armory Square Hospital was a military hospital for Union soldiers, mostly those wounded in Virginia, that operated from 1862&#8211;65.  It was located at the the intersection of 6th Street SW and B Street SW, where the National Air and Space Museum currently stands. The hospital had a thousand beds spread across twelve wards and overflow tents.</note>&#8212;have a pretty bad cold, the doctor does not call my disease by any particular name&#8212;I have considerable cough&#8212;but I think I shall be up all right before a great while, so you must not be uneasy&#8212;I have pretty good care taken of me here, &#38; shall do well
+                
+            <pb xml:id="leaf001v" facs="loc.02067.002_large.jpg" type="verso"/>  
+                &#8212;I send you an envelope for you to put a letter in, as I wish you to write to me.</p>
+            <p>I send you my love. I have this letter written by a friend who sometimes calls in to see me &#38; the other boys.</p>
+            <p>Good bye for the present, &#38; God bless you &#38; all.</p>
+            <closer>
+                <signed>David Ferguson<note xml:id="n2" type="editorial" resp="wwa">David Ferguson served in the 15th New York Engineers, Company I, as a corporal. An immigrant from Scotland, Ferguson enlisted as a private at age 33 and served two years. Military records reveal that he stood 5' 8" tall, had blue eyes and brown hair, with the ruddy complexion one may expect of a rigger who worked outdoors. He was discharged May 22, 1863, on a surgeon's certificate from Armory Square General Hospital, with the report citing "[e]xtreme debility resulting from a severe attack of pneumonia and the impossibility of his recovering before the expiration of his term of service." Ferguson died of consumption on June 16, 1863 (less than eight weeks after his wife) at 609 Water Street, lower east side of New York City. He is buried in Green-Wood cemetery in Brooklyn. His young daughter (11) and son (9) were left orphaned (Kenneth M. Price and Jacqueline M. Budell, "Writen by Walt Whitman, a friend," <hi rend="italic">Prologue Magazine</hi> 42, no. 2 [Summer 2016]).</note></signed>
+            </closer>
+            
+            <postscript>
+                <ab>The above letter is written by Walt Whitman, a visitor to the hospitals</ab>
+            </postscript>
+        </body>
+    </text>
+</TEI>

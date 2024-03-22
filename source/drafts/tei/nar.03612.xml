@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="ASCII"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="nar.03612">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">Nelson Jabo to Adeline Jabo, 21 June 1865</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Nelson Jabo</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="as">Ashlyn Stewart</persName>
+                    <persName xml:id="km">Kevin McMullen</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of
+                    Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2018</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>nar.03612</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright &#169; 2012 by Ed Folsom and Kenneth M. Price, all rights
+                        reserved. Items in the Archive may be shared in accordance with the Fair Use
+                        provisions of U.S. copyright law. Redistribution or republication on other
+                        terms, in any medium, requires express written consent from the editors and
+                        advance notification of the publisher, Center for Digital Research in the
+                        Humanities. Permission to reproduce the graphic images in this archive has
+                        been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>Nelson Jabo</author>
+                    <title>Nelson Jabo to Adeline Jabo, Jan 21, 1865</title>
+                    <date cert="high" when="1865-01-21" xml:id="dat1">January 21, 1865</date>
+                    <orgName xml:id="nar">National Archives</orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Jabo, Nelson">Nelson Jabo</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Jabo, Adeline">Adeline Jabo</persName>
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2019-04-04" who="#km">second proofing</change>
+            <change when="2019-03-26" who="#as">Updated note formatting</change>
+            <change when="2019-03-15" who="#as">Added note</change>
+            <change when="2019-03-11" who="#km">removed stray closing tag; proofed</change>
+            <change when="2018-09-10" who="#as">Transcribed and encoded</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text type="letter">
+        <body>
+            <pb xml:id="leaf001r" facs="nar_km.00001_large.jpg" type="recto"/>
+            <opener>
+                <dateline>
+                    <name type="place">Washington,<note xml:id="n1" type="editorial" resp="wwa"> Whitman wrote this letter for a patient in Harewood General Hospital, one of several hospitals in Washington that continued to care for discharged soldiers with lingering illnesses and injuries even after the war had ended (Kenneth M. Price and Jacqueline M. Budell, "Writen by Walt Whitman, a friend," <hi rend="italic">Prologue Magazine</hi> [42:2, Summer 2016]).</note></name>
+                    <date when="1865-01-21">Jan. 21, 1865.</date>
+                </dateline>
+                
+                <salute>My dear Wife,</salute>
+            </opener>
+
+            <p>You must excuse me for not having written to you before.  I have not been very well, &#38; did not feel much like writing&#8212;but I feel considerably better now&#8212;my complaint is an affection of the lungs&#8212;I am mustered out of the service, but am not at present well enough to come home&#8212; I hope you will try to write back as soon as you receive this &#38; let me know how you all are, how things are going on&#8212;let me know how it is with mother&#8212;I write this by means of a friend who is now sitting by my side&#8212;
+            
+            <pb xml:id="leaf001v" facs="nar_km.00002_large.jpg" type="verso"/>
+            
+            &#8212;&#38; I hope it will be God's will that we shall yet meet again&#8212;Well I send you all my love, &#38; must now close.</p>
+
+            <closer>
+                <salute>Your affectionate husband</salute>
+                <signed>Nelson Jabo.<note xml:id="n2" type="editorial" resp="wwa">Jabo served initially in the 96th New York Infantry. He enlisted on October 26, 1861, in Mooers, Clinton County, New York, to serve three years. He left his work as a mason behind along with his wife of 15 years and six young children. Surviving records tell us Jabo was of medium height and had dark hair and a dark complexion. Jabo's health declined rapidly after the battle of White Oak Swamp, and he was ultimately discharged on November 13, 1862 for disability. Despite this assessment, in November 1863 he rejoined the Union service as a substitute for Chester Bullard of Nashua, New Hampshire and was assigned to Company H of the 8th New Hampshire Infantry. He was in and out of several military hospitals starting in May 1864, forcing his eventual transfer to the 24th Veteran Reserve Corps Infantry in June 1864, where he could be put on light duty. When Whitman penned the letter for Jabo, what had begun as "bronchitis" had progressed to pulmonary tuberculosis, or what was commonly known then as consumption. By Christmas 1865, Jabo was transferred to Harewood General Hospital, where he was at the time of this letter. When Harewood closed in May 1866, Jabo was transferred to a USA Post Hospital before eventually becoming a "charity patient" at Providence Hospital, a city institution, in September 1866. He died there in December 1866. His burial place is unknown (Kenneth M. Price and Jacqueline M. Budell, "Writen by Walt Whitman, a friend," <hi rend="italic">Prologue Magazine</hi> [42:2, Summer 2016]).</note></signed>
+            </closer>
+            
+            <postscript>
+                <ab>written by Walt Whitman</ab>
+                <ab>a friend.</ab>
+            </postscript>
+        </body>
+            </text>
+</TEI>

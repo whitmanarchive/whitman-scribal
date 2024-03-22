@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?> <!-- I assume that Oxygen didn't like your comment at the top of the page, since the document validated immediately after I removed it. Incorporate the slight revisions noted on this document and all should be well. -->
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="nar.02013">
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="nar.02013">
     <teiHeader>
     <fileDesc>
       <titleStmt>

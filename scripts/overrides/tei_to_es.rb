@@ -1,3 +1,6 @@
+require_relative "../../../whitman-scripts/scripts/ruby/get_works_info.rb"
+require_relative "../../../whitman-scripts/scripts/archive-wide/overrides.rb"
+
 class TeiToEs
 
   ################
@@ -12,6 +15,7 @@ class TeiToEs
     xpaths["format"] = "/TEI/text/@type"
     xpaths["rights_holder"] = "//fileDesc/publicationStmt/distributor"
     xpaths["sender"] = "//profileDesc/particDesc/person[@role='sender']/persName"
+    xpaths["contributor"] = "//teiHeader//notesStmt//persName"
     return xpaths
   end
 
@@ -51,10 +55,12 @@ class TeiToEs
   def annotations_text
   end
 
-  
-
   def category
-    "correspondence"
+    "Letters"
+  end
+
+  def category2
+    "Letters / Scribal"
   end
 
   def format
@@ -66,18 +72,17 @@ class TeiToEs
     "en"
   end
 
-  def languages
-    # TODO verify that none of these are multiple languages
-    [ "en" ]
-  end
+  # def languages
+  #   # TODO verify that none of these are multiple languages
+  #   [ "en" ]
+  # end
 
-  def person
-  end
 
   def publisher
   end
 
-  def recipient
+  def person
+    #was recipient
     eles = @xml.xpath(@xpaths["recipient"])
     eles.map do |p|
       {
@@ -93,14 +98,28 @@ class TeiToEs
     get_text(@xpaths["rights"])
   end
 
-  def subcategory
-    "scribal"
-  end
-
   # TODO text other from author, title, publisher, pubplace, and date[@when]
 
   def uri
     "#{@options["site_url"]}/manuscripts/scribal/tei/#{@filename}.html"
+  end
+
+  def citation
+    # WorksInfo is get_works_info.rb in whitman-scripts repo
+    @works_info = WorksInfo.new(xml, @id, @options["threads"])
+    ids, names = @works_info.get_works_info
+    citations = []
+    if ids && ids.length > 0
+      ids.each_with_index do |id, idx|
+        name = names[idx]
+        citations << {
+          "id" => id,
+          "title" => name,
+          "role" => "whitman_id"
+        }
+      end
+    end
+    citations
   end
 
 end
